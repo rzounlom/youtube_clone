@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  .header__logo {
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+
+  .header__right,
+  .header__input,
+  .header__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__right {
+    svg {
+      margin-right: 8px;
+    }
+  }
+
+  .header__input {
+    width: 40%;
+    border: 1px solid lightgray;
+
+    input {
+      flex: 1;
+      border: 1px solid lightgray;
+      border: none;
+      padding: 1%;
+    }
+
+    svg {
+      width: 50px;
+      background-color: #fafafa;
+      border-left: 1px solid lightgray;
+      color: gray;
+    }
+  }
+
+  .header__left {
+  }
+}
