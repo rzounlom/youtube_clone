@@ -2,6 +2,30 @@
   display: flex;
   align-items: center;
   padding: 10px 20px;
+  justify-content: center;
+  //   background-color: lightgray;
+  &:hover {
+    cursor: pointer;
+
+    h2 {
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+    }
+    svg {
+      color: red;
+      transition: all 0.2s ease-in-out;
+    }
+
+    background-color: lightgray;
+  }
+
+  &.selected {
+    background-color: lightgray;
+    svg {
+      color: red;
+      font-size: large;
+    }
+  }
 
   h2 {
     flex: 1;
