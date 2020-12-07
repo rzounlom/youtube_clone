@@ -1,0 +1,14 @@
+.video-card {
+  width: 270px;
+  margin-bottom: 40px;
+
+  .video-card-thumbnail {
+    height: 140px;
+    width: 250px;
+  }
+
+  .video-card__info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
