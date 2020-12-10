@@ -1,14 +1,19 @@
 .video-card {
-  width: 270px;
+  width: 355px;
+  height: 280px;
   margin-bottom: 40px;
+  margin-left: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
   .video-card-thumbnail {
-    height: 140px;
-    width: 250px;
+    height: 70%;
+    width: 100%;
   }
 
   .video-card__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
   }
 }

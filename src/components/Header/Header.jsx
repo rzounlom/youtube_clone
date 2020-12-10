@@ -30,7 +30,7 @@ const Header = () => {
         <NotificationsIcon />
         <Avatar
           alt="profile pic"
-          src="https://lh3.googleusercontent.com/nkDJ2QSKfFjsDqF5ehlXF5qu1y8wNrYz_TFTzL4J_d0xN4I8IsJ7DKNjbi4GnTJWHOpT8Q=s85"
+          src="https://lh3.googleusercontent.com/JE2yJSbCr1wgziYj698Xyxy8FLUYe0jOnzmorz2e8I9Ek2CuMvxg6bKDlM6FUR3Of83hEw=s85"
         />
       </div>
     </div>

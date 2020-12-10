@@ -6,7 +6,6 @@ import VideoCard from "./VideoCard/VideoCard";
 const RecommendedVideos = () => {
   return (
     <div className="recommended-videos">
-      <h2>Recommended</h2>
       <div className="recommended-videos__videos">
         <VideoCard
           title="lofi hip hop radio - beates to study/relax to"
