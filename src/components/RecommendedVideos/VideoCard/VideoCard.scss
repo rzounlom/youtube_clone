@@ -1,8 +1,8 @@
 .video-card {
-  width: 355px;
-  height: 280px;
+  width: 23%;
+  height: 250px;
   margin-bottom: 40px;
-  margin-left: 3%;
+  margin-left: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
   .video-card-thumbnail {
@@ -15,5 +15,18 @@
     justify-content: space-around;
     align-items: center;
     height: 25%;
+  }
+
+  @media screen and (max-width: 1455px) {
+    width: 27%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 46%;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 90%;
+    margin-left: 0;
   }
 }
