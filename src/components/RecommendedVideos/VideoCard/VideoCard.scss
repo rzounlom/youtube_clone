@@ -18,15 +18,19 @@
   }
 
   @media screen and (max-width: 1455px) {
-    width: 27%;
+    width: 30%;
   }
 
   @media screen and (max-width: 768px) {
-    width: 46%;
+    width: 45%;
   }
 
   @media screen and (max-width: 767px) {
     width: 90%;
     margin-left: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }

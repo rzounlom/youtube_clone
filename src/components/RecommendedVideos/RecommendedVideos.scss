@@ -1,48 +1,45 @@
 .recommended-videos {
   display: flex;
   justify-content: flex-end;
-  width: 87vw;
+  width: 100%;
   padding-bottom: 0;
+  padding-top: 9%;
 
   .recommended-videos__videos {
-    width: 95%;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     height: auto;
     overflow-y: auto;
     flex-wrap: wrap;
-    margin-right: 4%;
+    // margin-right: 4%;
   }
 
-  @media screen and (max-width: 1455px) {
+  @media screen and (min-width: 1456px) {
+    padding-top: 6%;
     .recommended-videos__videos {
-      width: 100%;
-      margin-right: 10%;
     }
   }
 
   @media screen and (max-width: 768px) {
+    padding-top: 12%;
     .recommended-videos__videos {
-      width: 77%;
-      margin-right: 2%;
+      margin-left: 2%;
     }
   }
 
-  // @media screen and (max-width: 767px) {
-  //   width: 100vw;
-  //   .recommended-videos__videos {
-  //     justify-content: center;
-  //     width: 100%;
-  //     margin-right: 2%;
-  //   }
-  // }
-
   @media screen and (max-width: 414px) {
     width: 100vw;
+    padding-top: 20%;
     .recommended-videos__videos {
+      width: 100%;
       justify-content: center;
       width: 100%;
-      margin-right: 0;
+      margin: 0;
     }
+  }
+
+  @media screen and (max-width: 350px) {
+    padding-top: 25%;
   }
 }
